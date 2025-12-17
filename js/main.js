@@ -455,8 +455,8 @@ function displayContact(list = contacts) {
             </div>`;
     }
     document.getElementById("contact-list").innerHTML = box;
-    document.getElementById("total").innerHTML = list.length;
   }
+  document.getElementById("total").innerHTML = list.length;
 }
 
 function addfavorites() {
